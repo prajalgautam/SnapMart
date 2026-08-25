@@ -1,6 +1,6 @@
-# Snapmart — Backend
+# KOSHELI — Backend
 
-This folder contains the backend scaffold for the Snapmart project (Express + Mongoose).
+This folder contains the backend scaffold for the KOSHELI project (Express + Mongoose).
 
 Run locally:
 

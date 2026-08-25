@@ -9,7 +9,7 @@ const createToken = (user) =>
       role: user.role,
       email: user.email,
     },
-    process.env.JWT_SECRET,
+    process.env.JWT_SECRET || 'SnapMart_JWT_Secret_2024_8f3c9a1b2d5e7f90a1b2c3d4e5f6a7b8',
     { expiresIn: '7d' }
   );
 

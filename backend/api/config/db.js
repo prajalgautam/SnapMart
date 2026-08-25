@@ -6,7 +6,7 @@ export const isDatabaseConnected = () => dbConnected
 
 // Connect to MongoDB (supports local or Atlas via MONGODB_URI)
 export default async function connectDB() {
-  const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/snapmart'
+  const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/kosheli'
 
   try {
     await mongoose.connect(uri, { serverSelectionTimeoutMS: 10000 })

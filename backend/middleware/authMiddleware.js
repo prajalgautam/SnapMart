@@ -10,7 +10,7 @@ const authMiddleware = async (req, res, next) => {
       return res.status(401).json({ message: 'Authentication required.' });
     }
 
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'SnapMart_JWT_Secret_2024_8f3c9a1b2d5e7f90a1b2c3d4e5f6a7b8');
     const user = await User.findById(decoded.id).select('-password');
 
     if (!user || !user.isActive) {

@@ -203,7 +203,7 @@ export const forgotPassword = async (req, res) => {
 
     const clientUrl = process.env.CLIENT_URL || 'http://localhost:5173'
     const resetUrl = `${clientUrl}/reset-password?token=${token}`
-    const subject = 'Reset your SnapMart password'
+    const subject = 'Reset your KOSHELI password'
     const text = `You requested a password reset. Click the link below to reset your password:\n\n${resetUrl}\n\nIf you did not request this, please ignore this email.`
     const html = `<p>You requested a password reset. Click the link below to reset your password:</p><p><a href="${resetUrl}">${resetUrl}</a></p><p>If you did not request this, please ignore this email.</p>`
 

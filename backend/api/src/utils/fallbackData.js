@@ -124,7 +124,7 @@ export const getFallbackCategories = () => fallbackCategories.map((category) => 
 export const getFallbackUser = () => ({
   _id: 'demo-user',
   name: 'Demo User',
-  email: 'demo@snapmart.local',
+  email: 'demo@kosheli.local',
   role: 'user',
   isGuest: false,
 })

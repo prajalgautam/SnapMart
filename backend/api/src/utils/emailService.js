@@ -21,7 +21,7 @@ export async function sendEmail({ to, subject, text, html }) {
     return
   }
 
-  const from = process.env.EMAIL_FROM || `SnapMart <${process.env.SMTP_USER}>`
+  const from = process.env.EMAIL_FROM || `KOSHELI <${process.env.SMTP_USER}>`
 
   await transporter.sendMail({
     from,

@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     status: 'ok',
-    message: 'Snapmart API is running',
+    message: 'KOSHELI API is running',
   });
 });
 
@@ -48,6 +48,6 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Snapmart server running on port ${PORT}`);
+  console.log(`KOSHELI server running on port ${PORT}`);
 });
 

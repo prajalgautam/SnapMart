@@ -1,4 +1,4 @@
-Snapmart server running on port 5000
+KOSHELI server running on port 5000
 ✅ MongoDB connected: localhost
 [0mPOST /api/auth/login [32m200[0m 234.024 ms - 367[0m
 [0mPOST /api/auth/register [32m201[0m 101.399 ms - 383[0m

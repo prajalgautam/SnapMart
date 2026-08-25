@@ -10,5 +10,5 @@ test('fallback products and categories are available without MongoDB', () => {
 
   assert.ok(Array.isArray(products) && products.length > 0)
   assert.ok(Array.isArray(categories) && categories.length > 0)
-  assert.equal(user.email, 'demo@snapmart.local')
+  assert.equal(user.email, 'demo@kosheli.local')
 })
